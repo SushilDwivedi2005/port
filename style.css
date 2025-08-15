@@ -1,3 +1,5 @@
+
+
 body{
     font-size: 6px;
 }
@@ -119,4 +121,18 @@ nav{
   }
   a{
     text-decoration: none;
+  }
+
+
+
+  .card {
+    min-height: 100%;
+  }
+  .progress {
+    height: 0.8rem;
+  }
+  @media (max-width: 576px) {
+    .display-4, .display-5, .display-6 {
+      font-size: calc(1rem + 2vw);
+    }
   }
